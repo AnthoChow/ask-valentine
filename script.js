@@ -88,7 +88,7 @@ yesBtn.addEventListener("click", () => {
 noBtn.addEventListener("click", () => {
     title.textContent = "Aw okay";
 
-    catImg.src = "sad cat.png";
+    catImg.src = "sad_cat.png";
 
     document.querySelector(".letter-window").classList.add("final");
 
