@@ -80,6 +80,7 @@ yesBtn.addEventListener("click", () => {
 
     buttons.style.display = "none";
 
+    noText.style.display = "none";
     finalText.style.display = "block";
 });
 
@@ -93,6 +94,7 @@ noBtn.addEventListener("click", () => {
     document.querySelector(".letter-window").classList.add("final");
 
     buttons.style.display = "none";
-
+    
+    finalText.style.display = "none";
     noText.style.display = "block";
 });
