@@ -87,14 +87,14 @@ yesBtn.addEventListener("click", () => {
 // NO is clicked 
 
 noBtn.addEventListener("click", () => {
-    title.textContent = "Aw okay";
+    title.textContent = "Sad cat";
 
     catImg.src = "sad_cat.png";
 
     document.querySelector(".letter-window").classList.add("final");
 
     buttons.style.display = "none";
-    
+
     finalText.style.display = "none";
     noText.style.display = "block";
 });
