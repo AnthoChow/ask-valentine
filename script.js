@@ -82,3 +82,17 @@ yesBtn.addEventListener("click", () => {
 
     finalText.style.display = "block";
 });
+
+// NO is clicked 
+
+noBtn.addEventListener("click", () => {
+    title.textContent = "Aw okay";
+
+    catImg.src = "sad cat.png";
+
+    document.querySelector(".letter-window").classList.add("final");
+
+    buttons.style.display = "none";
+
+    finalText.style.display = "block";
+});
