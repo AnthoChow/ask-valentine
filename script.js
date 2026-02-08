@@ -8,7 +8,7 @@ const title = document.getElementById("letter-title");
 const catImg = document.getElementById("letter-cat");
 const buttons = document.getElementById("letter-buttons");
 const finalText = document.getElementById("final-text");
-
+const noText = document.getElementById("no-text");
 // Click Envelope
 
 envelope.addEventListener("click", () => {
@@ -94,5 +94,5 @@ noBtn.addEventListener("click", () => {
 
     buttons.style.display = "none";
 
-    finalText.style.display = "block";
+    noText.style.display = "block";
 });
